@@ -26,8 +26,8 @@ export function Opening() {
       <p className="mt-6 max-w-xl font-hero text-base leading-relaxed text-muted sm:text-lg">
         My path runs from engineering and quality, into product, through
         startups and founding a business I rebuilt from the ground up, and
-        now into the complex systems and decisions enterprise work depends
-        on.
+        at present, I navigate complex enterprise systems—guiding decision
+        design, AI adoption, and advanced workflow automation.
       </p>
 
       <a

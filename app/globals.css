@@ -63,18 +63,22 @@ body {
   animation: opening-char-in 0.4s ease-out forwards;
 }
 
+/* Exactly three blinks, then settle visible and hold — see BRAND.md
+   "Signature Motion". Both ends of the cycle are the same "visible" value,
+   so animation-iteration-count reliably ends on visible regardless of
+   iteration count — no fractional-percentage timeline needed. */
 @keyframes opening-caret-blink {
   0%,
   100% {
-    opacity: 0.15;
+    opacity: 0.85;
   }
   50% {
-    opacity: 0.85;
+    opacity: 0.15;
   }
 }
 
 .opening-caret {
-  animation: opening-caret-blink 1.25s ease-in-out infinite;
+  animation: opening-caret-blink 1.25s ease-in-out 3 forwards;
 }
 
 /* Deliberate exception to "nothing moves unless interacted with" — see
@@ -101,7 +105,7 @@ body {
 
   .opening-caret {
     animation: none;
-    opacity: 0.6;
+    opacity: 0.85;
   }
 
   .opening-scroll-cue {

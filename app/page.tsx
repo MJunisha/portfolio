@@ -2,8 +2,6 @@ import { Header } from "@/components/Header";
 import { Opening } from "@/components/Opening";
 import { SelectedWork } from "@/components/SelectedWork";
 import { IndependentStudies } from "@/components/IndependentStudies";
-import { CuriousBuilds } from "@/components/CuriousBuilds";
-import { Writing } from "@/components/Writing";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -14,8 +12,6 @@ export default function Home() {
         <Opening />
         <SelectedWork />
         <IndependentStudies />
-        <CuriousBuilds />
-        <Writing />
       </main>
       <Footer />
     </>
