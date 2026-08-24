@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Junisha Malkani — Enterprise Decision Design Counsel",
+  title: "Junisha",
   description:
-    "Junisha Malkani — Enterprise Decision Design Counsel. Senior Product Manager at ORO Labs, building AI-native enterprise workflows. Former founder.",
+    "I work on products, businesses and systems where the hard part is deciding what should happen next.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
