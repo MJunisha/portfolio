@@ -130,6 +130,12 @@ export function IndependentStudies() {
                   filter: isActive ? "none" : "blur(1px) brightness(0.97)",
                 }}
               >
+                <Link
+                  href={`/work/${study.slug}`}
+                  aria-label={`View ${study.title} case study`}
+                  className="absolute inset-0 z-10 rounded-2xl"
+                />
+
                 <div className="flex items-center gap-3">
                   {config && (
                     <div className="relative h-6 w-16 shrink-0 overflow-hidden rounded-sm">

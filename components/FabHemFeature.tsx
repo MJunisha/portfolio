@@ -6,7 +6,7 @@ import { ArrowUpRightIcon } from "@/components/Icons";
 function FlowNode({ label, muted }: { label: string; muted?: boolean }) {
   return (
     <span
-      className={`border px-3 py-1.5 font-hero text-xs sm:text-sm ${
+      className={`shrink-0 whitespace-nowrap border px-3 py-1.5 font-hero text-xs sm:text-sm ${
         muted ? "border-border text-muted" : "border-foreground text-foreground"
       }`}
     >
@@ -60,26 +60,26 @@ export function FabHemFeature() {
 
       {/* Decision-system diagram — an original editorial artifact, not a dashboard */}
       <div className="card-reveal mt-10 border border-border p-6 sm:p-8">
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-2">
+        <div className="flex flex-nowrap items-center gap-x-2 overflow-x-auto pb-1 [&::-webkit-scrollbar]:hidden">
           <FlowNode label="Code" muted />
-          <span className="font-hero text-muted">→</span>
+          <span className="shrink-0 font-hero text-muted">→</span>
           <FlowNode label="Unit test" muted />
-          <span className="font-hero text-muted">→</span>
+          <span className="shrink-0 font-hero text-muted">→</span>
           <FlowNode label="Ship" muted />
-          <span className="font-hero text-muted">→</span>
+          <span className="shrink-0 font-hero text-muted">→</span>
           <FlowNode label="Production issue" muted />
-          <span className="font-hero text-muted">→</span>
+          <span className="shrink-0 font-hero text-muted">→</span>
           <FlowNode label="Hotfix" muted />
         </div>
         <p className="mt-2 font-hero text-xs text-muted">Before</p>
 
-        <div className="mt-6 flex flex-wrap items-center gap-x-2 gap-y-2 border-t border-border pt-6">
+        <div className="mt-6 flex flex-nowrap items-center gap-x-2 overflow-x-auto border-t border-border pt-6 pb-1 [&::-webkit-scrollbar]:hidden">
           <FlowNode label="Understand" />
-          <span className="font-hero text-foreground">→</span>
+          <span className="shrink-0 font-hero text-foreground">→</span>
           <FlowNode label="Build ↔ QA" />
-          <span className="font-hero text-foreground">→</span>
+          <span className="shrink-0 font-hero text-foreground">→</span>
           <FlowNode label="Test" />
-          <span className="font-hero text-foreground">→</span>
+          <span className="shrink-0 font-hero text-foreground">→</span>
           <FlowNode label="Ship" />
         </div>
         <div className="mt-2 flex items-center gap-2">

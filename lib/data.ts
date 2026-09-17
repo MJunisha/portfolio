@@ -5,7 +5,7 @@ export const profile = {
   location: "Pune, Maharashtra, India",
   email: "jhablani@gmail.com",
   linkedin: "https://www.linkedin.com/in/junisha/",
-  instagram: "https://www.instagram.com/styleitwithjune/",
+  instagram: "https://www.instagram.com/tuneinwithjune/",
   github: "https://github.com/MJunisha",
   githubUsername: "MJunisha",
 };

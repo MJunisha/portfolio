@@ -49,19 +49,6 @@ export function Footer() {
 
           <GitHubActivity />
         </div>
-
-        <a
-          href={profile.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-16 inline-block font-hero text-sm text-muted transition-colors hover:text-accent"
-        >
-          More recommendations on LinkedIn →
-        </a>
-
-        <p className="mt-4 font-hero text-sm text-muted">
-          © {new Date().getFullYear()} {profile.name}. Built with Next.js.
-        </p>
       </div>
     </footer>
   );

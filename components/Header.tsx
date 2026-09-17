@@ -1,6 +1,5 @@
 import { profile } from "@/lib/data";
 import {
-  MailIcon,
   LinkedInIcon,
   InstagramIcon,
   GitHubIcon,
@@ -20,13 +19,6 @@ export function Header() {
       </a>
 
       <nav className="flex items-center gap-4 text-muted">
-        <a
-          href={`mailto:${profile.email}`}
-          aria-label="Email"
-          className="transition-colors hover:text-foreground"
-        >
-          <MailIcon className="h-4 w-4" />
-        </a>
         <a
           href={profile.linkedin}
           target="_blank"
