@@ -27,8 +27,10 @@
   --font-hero: var(--font-geist-sans);
 }
 
-* {
-  border-color: var(--border);
+@layer base {
+  * {
+    border-color: var(--border);
+  }
 }
 
 html {

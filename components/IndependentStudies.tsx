@@ -123,7 +123,7 @@ export function IndependentStudies() {
                 }}
                 className={`sticky rounded-2xl border bg-background px-6 py-8 shadow-[0_20px_45px_-30px_rgba(17,17,17,0.25)] transition-[filter,border-color] duration-300 sm:px-8 sm:py-10 ${
                   i > 0 ? "mt-6" : ""
-                } ${isActive ? "border-accent" : "border-border"}`}
+                } ${isActive ? "border-accent" : "border-accent/70"}`}
                 style={{
                   top: `${STACK_BASE + i * STACK_STEP}px`,
                   zIndex: i + 1,

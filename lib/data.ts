@@ -6,6 +6,8 @@ export const profile = {
   email: "jhablani@gmail.com",
   linkedin: "https://www.linkedin.com/in/junisha/",
   instagram: "https://www.instagram.com/styleitwithjune/",
+  github: "https://github.com/MJunisha",
+  githubUsername: "MJunisha",
 };
 
 export const philosophy = {

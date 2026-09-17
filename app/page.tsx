@@ -3,6 +3,7 @@ import { Opening } from "@/components/Opening";
 import { SelectedWork } from "@/components/SelectedWork";
 import { IndependentStudies } from "@/components/IndependentStudies";
 import { Advisory } from "@/components/Advisory";
+import { QuoteFeed } from "@/components/QuoteFeed";
 import { Footer } from "@/components/Footer";
 import { FooterReveal } from "@/components/FooterReveal";
 import { TestimonialSeparator } from "@/components/TestimonialSeparator";
@@ -27,6 +28,7 @@ export default function Home() {
         {testimonialAt("studies-advisory")}
         <Advisory />
         {testimonialAt("advisory-footer")}
+        <QuoteFeed />
       </FooterReveal>
     </>
   );

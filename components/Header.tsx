@@ -1,5 +1,10 @@
 import { profile } from "@/lib/data";
-import { MailIcon, LinkedInIcon, InstagramIcon } from "@/components/Icons";
+import {
+  MailIcon,
+  LinkedInIcon,
+  InstagramIcon,
+  GitHubIcon,
+} from "@/components/Icons";
 import { buildReveal } from "@/lib/textReveal";
 import { RevealText } from "@/components/RevealText";
 
@@ -40,7 +45,15 @@ export function Header() {
         >
           <InstagramIcon className="h-4 w-4" />
         </a>
-        {/* TODO: GitHub icon/link pending profile URL — see GitHubIcon in Icons.tsx */}
+        <a
+          href={profile.github}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+          className="transition-colors hover:text-foreground"
+        >
+          <GitHubIcon className="h-4 w-4" />
+        </a>
       </nav>
     </header>
   );

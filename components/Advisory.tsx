@@ -32,7 +32,7 @@ function IntroVideo() {
   }, []);
 
   return (
-    <div className="aspect-[4/5] w-full max-w-sm overflow-hidden rounded-xl border border-border">
+    <div className="aspect-[4/5] w-full max-w-sm overflow-hidden rounded-xl border-2 border-accent">
       <video
         ref={videoRef}
         className="h-full w-full object-cover"

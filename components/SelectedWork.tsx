@@ -4,7 +4,7 @@ import { FabHemFeature } from "@/components/FabHemFeature";
 
 function WorkCard({ children }: { children: ReactNode }) {
   return (
-    <div className="w-[88%] shrink-0 snap-start rounded-2xl border border-border bg-background p-6 shadow-[0_20px_45px_-30px_rgba(17,17,17,0.25)] sm:w-[85%] sm:p-8">
+    <div className="w-[88%] shrink-0 snap-start rounded-2xl border-2 border-accent bg-background p-6 shadow-[0_20px_45px_-30px_rgba(17,17,17,0.25)] sm:w-[85%] sm:p-8">
       {children}
     </div>
   );
