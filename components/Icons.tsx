@@ -34,6 +34,14 @@ export function ArrowUpRightIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
+export function MessageIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} {...props}>
+      <path d="M4 5.5h16v11H9l-4 3.2v-3.2H4v-11Z" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export function GitHubIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} {...props}>

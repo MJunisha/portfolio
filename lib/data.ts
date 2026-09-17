@@ -4,7 +4,7 @@ export const profile = {
   subTagline: "Senior Product Manager, ORO Labs — encoding judgment into enterprise workflows",
   location: "Pune, Maharashtra, India",
   email: "jhablani@gmail.com",
-  linkedin: "https://www.linkedin.com/in/junisha-malkani/",
+  linkedin: "https://www.linkedin.com/in/junisha/",
   instagram: "https://www.instagram.com/styleitwithjune/",
 };
 

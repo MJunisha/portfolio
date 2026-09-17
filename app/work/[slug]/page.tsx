@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { caseStudies } from "@/lib/data";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { FooterReveal } from "@/components/FooterReveal";
 import { BunawatVideo } from "@/components/BunawatVideo";
 
 export function generateStaticParams() {
@@ -24,7 +25,7 @@ export default async function CaseStudyPage({
   return (
     <>
       <Header />
-      <main className="flex-1">
+      <FooterReveal footer={<Footer />}>
         <section className="mx-auto max-w-3xl px-6 py-16 sm:px-8 sm:py-24">
           <Link
             href="/#work"
@@ -102,8 +103,7 @@ export default async function CaseStudyPage({
             ))}
           </div>
         </section>
-      </main>
-      <Footer />
+      </FooterReveal>
     </>
   );
 }
